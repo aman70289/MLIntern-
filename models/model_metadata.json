@@ -1,0 +1,47 @@
+{
+    "best_model_name": "GradientBoosting",
+    "metrics": {
+        "Accuracy": 0.9017,
+        "Precision": 0.8625,
+        "Recall": 0.7886,
+        "F1-Score": 0.8239,
+        "ROC-AUC": 0.9652
+    },
+    "all_models_metrics": {
+        "LogisticRegression": {
+            "Accuracy": 0.8767,
+            "Precision": 0.8137,
+            "Recall": 0.7486,
+            "F1-Score": 0.7798,
+            "ROC-AUC": 0.9426
+        },
+        "RandomForest": {
+            "Accuracy": 0.8933,
+            "Precision": 0.8936,
+            "Recall": 0.72,
+            "F1-Score": 0.7975,
+            "ROC-AUC": 0.9555
+        },
+        "GradientBoosting": {
+            "Accuracy": 0.9017,
+            "Precision": 0.8625,
+            "Recall": 0.7886,
+            "F1-Score": 0.8239,
+            "ROC-AUC": 0.9652
+        }
+    },
+    "feature_count": 11,
+    "features": [
+        "CreditScore",
+        "Age",
+        "Tenure",
+        "Balance",
+        "NumOfProducts",
+        "EstimatedSalary",
+        "Geography_Germany",
+        "Geography_Spain",
+        "Gender_Male",
+        "HasCrCard",
+        "IsActiveMember"
+    ]
+}
